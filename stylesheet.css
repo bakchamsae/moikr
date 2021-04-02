@@ -2,12 +2,14 @@
 
 body {
 background-image: url("noise.gif");
+background-size: 1920px;
 pointer-events: none;
 margin: 0;
+height: 100%;
 overflow: hidden;
 }
 
-.tagimg {height: 25vh; min-height: 300px;}
+.tagimg {height: 25vh; min-height: 270px;}
 .tag{
   position: fixed;
   top: 50px;
@@ -17,7 +19,7 @@ overflow: hidden;
 
 }
 
-@media (max-width:800px) {
+/* @media (max-width:800px) {
   .tagimg {width: 30vw;}
 
-}
+} */
