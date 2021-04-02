@@ -19,7 +19,7 @@ overflow: hidden;
 
 }
 
-@media (max-width:800px) {
+@media (max-width:600px) {
   body {
   background-image: url("noise.gif");
   background-size: 350%;
