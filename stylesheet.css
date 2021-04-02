@@ -19,7 +19,15 @@ overflow: hidden;
 
 }
 
-/* @media (max-width:800px) {
-  .tagimg {width: 30vw;}
+@media (max-width:800px) {
+  body {
+  background-image: url("noise.gif");
+  background-size: 350%;
+  pointer-events: none;
+  margin: 0;
+  overflow: hidden;
+  }
 
-} */
+  .tagimg {min-height: 330px;}
+
+}
