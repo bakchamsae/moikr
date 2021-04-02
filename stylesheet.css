@@ -28,6 +28,7 @@ overflow: hidden;
   overflow: hidden;
   }
 
-  .tagimg {min-height: 35vh;}
+  .tagimg {height: auto; min-height: auto;
+  width: 40vw;}
 
 }
