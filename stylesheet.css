@@ -3,7 +3,6 @@
 body {background-image: url("noise.gif");
 pointer-events: none;
 margin: 0;
-height: 100%;
 overflow: hidden;
 }
 
