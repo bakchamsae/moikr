@@ -1,12 +1,13 @@
 ::selection {opacity:0;}
 
-body {background-image: url("noise.gif");
+body {
+background-image: url("noise.gif");
 pointer-events: none;
 margin: 0;
 overflow: hidden;
 }
 
-.tagimg {width: 175px;}
+.tagimg {height: 25vh; min-height: 300px;}
 .tag{
   position: fixed;
   top: 50px;
